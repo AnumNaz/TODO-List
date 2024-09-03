@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    /* background-color: rgb(218, 167, 216); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colOne, .newDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.colOne label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.heading{
+    font-size: 24px;
+    font: 700;
+}
+
+
+
+.colTwo p{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 20px;
+        border: 1px solid rgb(230, 230, 228);
+        border-radius: 10px;
+}
+
+.update , .edit{
+    background-color: rgb(161, 168, 162);
+    margin-right: 10px;
+}
+
+.del{
+    background-color:  #b2ca5d;
+    
+}
+
+.update ,.del , .edit{
+    font-size: 14px;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 40px;
+}
+
